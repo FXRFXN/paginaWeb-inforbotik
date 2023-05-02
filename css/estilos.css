@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+body{
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color:#FFFFFF;
+   
+}
+header{
+    width: 100%;
+    height:15vh;
+    background-color: #1b1425;
+
+   
+   
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+
+}
+
+ul{
+    list-style: none;
+   
+}
+li{
+ display: inline-block; 
+ margin: 15px 30px;
+
+}
+li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+ 
+    
+    
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    padding: .5px;
+    /*background-image: linear-gradient(280deg, #9ffff8 0, #84faef 16.67%, #5eeae3 33.33%, #10d6d6 50%, #00c2ca 66.67%, #00b2c1 83.33%, #00a5bb 100%);*/
+    
+}
+
+.title{
+    font-family: 'Bodoni Moda', serif;
+    color:#1f1235;
+}
+.info{
+    font-family: 'Rubik', sans-serif;
+    color: #1b1425;
+}
+
+
+.button{
+    text-align: center;
+    margin-top: 15px;
+}
+.boton{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #1f1235;
+    color: white;
+    padding: 10px;
+    border: solid;
+   
+}
+
+
+.contenido{
+    
+    float: left;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+.imagen{
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    
+}
+
+
+
+
+.seccion-dos{
+    width: 100%;
+    height:90vh;
+    padding: .5px;
+    
+
+}
+.contenido-taller{
+    float: right;
+    width: 500px;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 100px;
+    
+}
+
+.ubicacion{
+  text-align: center;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.mapa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagen-sobrenosotros{
+    width: 600px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.imagen-sobrenosotros2{
+    width: 300px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+    
+}
+
+.imagen-sobrenosotros3{
+    width: 350px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+   
+}
+
+.seccion-tres{
+    width: 100%;
+    height:90vh;
+    padding: .5px;
+}
+
+.contenido-vision{
+    float: right;
+    width: 500px;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 100px;
+   
+}
+
+.imagen-vision{
+    width: 300px;
+    
+}
+
+.footer{
+    width: 100%;
+    height:30vh;
+    background-color: #1b1425;
+    padding: .5px;
+  
+    
+}
+
+.footer-info{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+}
+.redes-sociales{
+    text-align: center;
+    padding-top:10px;
+}
+
+.footer-redes{
+width: 30px;
+
+}
+
+
+@media(max-width: 800px){
+    main{
+        width: 100%;
+        height: 80vh;
+        margin: 0px;
+        text-align: center;
+    }
+
+    nav{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    
+    }
+    
+    ul{
+        list-style: none;
+       
+    }
+    li{
+     display: inline-block; 
+     margin: 15px 3px;
+    
+    }
+    li a{
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+     
+        
+        
+    }
+
+    
+    .contenido{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .info{
+        font-size: 20px;
+    }
+    .imagen{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .seccion-dos{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .contenido-taller{
+        width: 100%;
+        margin: auto;
+    }
+    .ubicacion{
+        margin: auto;
+    }
+
+    .mapa iframe{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .imagenes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .imagen-sobrenosotros{
+        width: 300px;
+        margin:  auto;
+       
+        
+    }
+
+    .imagen-sobrenosotros2{
+        width: 300px;
+        margin: 0 auto;
+        
+    }
+   
+.imagen-sobrenosotros3{
+    width: 200px;
+    margin: auto;
+}
+
+
+ }
